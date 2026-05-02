@@ -1,0 +1,358 @@
+Input file: D:\MASTER STIM SEM2 AN2\sisteme multicorp\proiect\2._6_dof_arm_assembly_sldprt_catpart_motion1-solution001.minp
+
+Solver running in Simcenter Mode
+
+Copyright Siemens 2025
+
+
+[1764]
+Info: The PEP_analytics flag is set to ON.
+
+[1764]
+Info: The DPE_analytics flag is set to ON.
+
+Solver: Simcenter 3D Motion Version 2506 (13.0) Jul 16 2025 09:16:56 Intel Release 64bit
+Interface: RC2506P1400rc1 2025-04-25
+Hostname: LAUR
+OS Type: Windows
+Release: 6.2
+Version: Build 9200
+Machine: 8664
+Integer size:    5000000
+Real size:    5000000
+Mcheps: 0.22204460492503E-15
+
+License Server is [29000@193.254.231.76]
+
+Features requiring licenses
+-----------------------
+sc_motion_solver "Simcenter Motion Solver"
+
+
+Options processed by solver:
+Name           Value               Description
+----           -----               -----------
+BDFEPS         1.0000000000000E-05 Solution->System Properties->Solution Control->Pivot Tolerance [s]
+BDFMAXORDER    5                   Solution->Dynamic Properties->Solution Control->Maximum Order [s]
+ALLOWRDNUPDATE FALSE               Solution->System Properties->Solution Control->Reevaluate Redundant Constraints [s]
+MAXBDFITER     5                   Solution->Dynamic Properties->Solution Control->Allowed Iteration Steps (Default=5) [s]
+-------------------------------------------------------------
+Legend
+   [s] Found in supplemental options
+
+
+------------------------------------------------------------
+   Entering Interactive Mode at Time =  0.0000000000000    
+------------------------------------------------------------
+
+SET SYSTEM System ENDING.TIME = 0.10000000000000
+STEP command
+
+[1134]
+Warning:  Prior to assembly the number of constraints, drivers and
+initial conditions is not equal to the number of generalized
+coordinates.  The assembly algorithm will be executed but the
+result will represent one of several possible solutions.
+Number of constraints, drivers, I.C's =                   22
+Number of generalized coordinates     =                   64
+
+Results achieved by the model assembly process with drivers:
+
+  Number of function evaluations =     1
+  Maximum constraint violation   =   0.418381E-13
+
+ Element: B001
+    Coordinate    New Value     Original Value  Difference
+    X            -0.30037E-02   -0.30037E-02     0.0000    
+    Y             0.72496E-01    0.72496E-01     0.0000    
+    Z             0.81510E-01    0.81510E-01     0.0000    
+    E0            0.74976        0.74976         0.0000    
+    E1            0.55838        0.55838         0.0000    
+    E2            0.20488        0.20488         0.0000    
+    E3            0.29000        0.29000         0.0000    
+
+ Element: B002
+    Coordinate    New Value     Original Value  Difference
+    X            -0.22018E-01   -0.22018E-01     0.0000    
+    Y             0.13043        0.13043         0.0000    
+    Z             0.95062E-01    0.95062E-01     0.0000    
+    E0            0.36294        0.36294         0.0000    
+    E1            0.61170        0.61170         0.0000    
+    E2            0.61882        0.61882         0.0000    
+    E3            0.33339        0.33339         0.0000    
+
+ Element: B003
+    Coordinate    New Value     Original Value  Difference
+    X            -0.65802E-01   -0.65802E-01     0.0000    
+    Y             0.16846        0.16846         0.0000    
+    Z             0.87011E-01    0.87011E-01     0.0000    
+    E0            0.68527        0.68527         0.0000    
+    E1            0.62000        0.62000         0.0000    
+    E2            0.17432        0.17432         0.0000    
+    E3            0.34003        0.34003         0.0000    
+
+ Element: B004
+    Coordinate    New Value     Original Value  Difference
+    X            -0.10716       -0.10716         0.0000    
+    Y             0.19962        0.19962         0.0000    
+    Z             0.79556E-01    0.79556E-01     0.0000    
+    E0            0.26171        0.26171         0.0000    
+    E1            0.39367        0.39367         0.0000    
+    E2            0.78651        0.78651         0.0000    
+    E3            0.39740        0.39740         0.0000    
+
+ Element: B005
+    Coordinate    New Value     Original Value  Difference
+    X            -0.52973E-01   -0.52973E-01     0.0000    
+    Y             0.23433        0.23433         0.0000    
+    Z             0.91317E-01    0.91317E-01     0.0000    
+    E0            0.58984        0.58984         0.0000    
+    E1            0.18635        0.18635         0.0000    
+    E2           -0.75274       -0.75274         0.0000    
+    E3            0.22528        0.22528         0.0000    
+
+ Element: B006
+    Coordinate    New Value     Original Value  Difference
+    X            -0.29934E-02   -0.29934E-02     0.0000    
+    Y             0.27328        0.27328         0.0000    
+    Z             0.10641        0.10641         0.0000    
+    E0            0.26748        0.26748         0.0000    
+    E1            0.38162        0.38162         0.0000    
+    E2            0.76277        0.76277         0.0000    
+    E3            0.44833        0.44833         0.0000    
+
+ Element: B007
+    Coordinate    New Value     Original Value  Difference
+    X             0.43323E-01    0.43323E-01     0.0000    
+    Y             0.28258        0.28258         0.0000    
+    Z             0.11474        0.11474         0.0000    
+    E0            0.11164        0.11164         0.0000    
+    E1           -0.66853       -0.66853         0.0000    
+    E2           -0.72625       -0.72625         0.0000    
+    E3            0.11474        0.11474         0.0000    
+
+ Element: B008
+    Coordinate    New Value     Original Value  Difference
+    X             0.94555E-01    0.94555E-01     0.0000    
+    Y             0.27501        0.27501         0.0000    
+    Z             0.15551        0.15551         0.0000    
+    E0            0.12187        0.12187         0.0000    
+    E1            0.57325        0.57325         0.0000    
+    E2            0.67376        0.67376         0.0000    
+    E3            0.45008        0.45008         0.0000    
+
+ Element: the_ground
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle    -0.41838E-13   -0.41838E-13     0.0000    
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.58235        0.68745E-03    0.56786E-03    0.34293E-03     0.0000         0.0000         0.0000    
+B002          0.29629        0.95443E-04    0.62770E-04    0.57145E-04     0.0000         0.0000         0.0000    
+B003          0.13477        0.19746E-03    0.12391E-03    0.87609E-04     0.0000         0.0000         0.0000    
+B004          0.29786        0.95881E-04    0.63288E-04    0.57555E-04     0.0000         0.0000         0.0000    
+B005          0.10382        0.97840E-04    0.94991E-04    0.89647E-05     0.0000         0.0000         0.0000    
+B006          0.29445        0.93742E-04    0.62035E-04    0.56186E-04     0.0000         0.0000         0.0000    
+B007          0.30818        0.14936E-03    0.88280E-04    0.83443E-04     0.0000         0.0000         0.0000    
+B008          0.34558        0.21233E-03    0.18616E-03    0.11394E-03     0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+Ignoring Initial conditions, the following were chosen
+as independent coordinates:
+
+
+ Element: B004
+    Coordinate:  Y         
+
+ Element: B004
+    Coordinate:  Z         
+
+ Element: B004
+    Coordinate:  X         
+
+ Element: B004
+    Coordinate:  E1        
+
+ Element: B004
+    Coordinate:  E2        
+
+ Element: B004
+    Coordinate:  E3        
+
+ Element: B005
+    Coordinate:  X         
+
+ Element: B005
+    Coordinate:  Y         
+
+ Element: B005
+    Coordinate:  Z         
+
+ Element: B001
+    Coordinate:  E1        
+
+ Element: B005
+    Coordinate:  E1        
+
+ Element: B005
+    Coordinate:  E2        
+
+ Element: B005
+    Coordinate:  E3        
+
+ Element: B006
+    Coordinate:  X         
+
+ Element: B006
+    Coordinate:  Y         
+
+ Element: B006
+    Coordinate:  Z         
+
+ Element: B001
+    Coordinate:  E2        
+
+ Element: B006
+    Coordinate:  E1        
+
+ Element: B006
+    Coordinate:  E2        
+
+ Element: B006
+    Coordinate:  E3        
+
+ Element: B007
+    Coordinate:  X         
+
+ Element: B007
+    Coordinate:  Y         
+
+ Element: B007
+    Coordinate:  Z         
+
+ Element: B003
+    Coordinate:  E3        
+
+ Element: B007
+    Coordinate:  E1        
+
+ Element: B007
+    Coordinate:  E2        
+
+ Element: B007
+    Coordinate:  E3        
+
+ Element: B008
+    Coordinate:  X         
+
+ Element: B008
+    Coordinate:  Y         
+
+ Element: B008
+    Coordinate:  Z         
+
+ Element: B002
+    Coordinate:  X         
+
+ Element: B008
+    Coordinate:  E1        
+
+ Element: B008
+    Coordinate:  E2        
+
+ Element: B008
+    Coordinate:  E3        
+
+ Element: B002
+    Coordinate:  Y         
+
+ Element: B003
+    Coordinate:  E2        
+
+ Element: B003
+    Coordinate:  E1        
+
+ Element: B001
+    Coordinate:  Z         
+
+ Element: B003
+    Coordinate:  Z         
+
+ Element: B002
+    Coordinate:  E3        
+
+ Element: B003
+    Coordinate:  X         
+
+ Element: B003
+    Coordinate:  Y         
+
+Number of real data in the system     =     63122
+Number of integer data in the system  =     26245
+
+
+Warning: may need (   42) more driver constraint to drive this model !!!
+
+
+[1010]
+Error found in subroutine MA30A.  Matrix is "numerically" singular.
+
+[1010]
+Error found in subroutine MA30A.  Matrix is "numerically" singular.
+
+[1160]
+Error in ACCSOLV.  A SINGular matrix was encountered.
+  Time =  0.0000000000000
+
+[2800]
+Warning from static analysis or articulation.  Solution failures may be caused
+by: (1) system DOF which have insufficient stiffnes. Such DOFs can be revealed
+with Static Mode Animation (static analysis with Visualize Modes=true). Adding
+small stiffness to these DOF can improve convergence.  (2) DOF which have
+discontinuous force relative to some coordinate.  Examples of this type include
+but are not limited to linearly interpolated stiffness curve in a force element,
+discontinuous force functions defined in expression functions.  Failures of
+type (1) and (2) may be mitigated by using the Percentage of Damping and
+Percentage of Mass static options in the static element (The user should be aware that
+for well-constructed models these two static options can hinder performance).
+This message will only appear one time although the solution may continue.
+
+[1024]
+Error detected in model analysis, sparse matrix solution package.
+Order of the matrix is out of range.
+  Error flag, IFAIL =      1
+  Error flag, IFLAG =      0
+  Order of matrix   =      0
+
+[1160]
+Error in ACCSOLV.  A SINGular matrix was encountered.
+  Time =  0.0000000000000
+   Quiting Motion.
+
+------------------------------------------------------------
+   Exiting Interactive Mode
+------------------------------------------------------------
+
+
+Userdef was internal
+
+    Total elapsed CPU time:  0.3650000    
+    Total clock time:          0

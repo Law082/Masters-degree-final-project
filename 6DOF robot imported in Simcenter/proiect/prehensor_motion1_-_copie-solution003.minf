@@ -1,0 +1,6350 @@
+Input file: D:\MASTER STIM SEM2 AN2\sisteme multicorp\proiect\prehensor_motion1_-_copie-solution003.minp
+
+Solver running in Simcenter Mode
+
+Copyright Siemens 2025
+
+
+[1764]
+Info: The PEP_analytics flag is set to ON.
+
+[1764]
+Info: The DPE_analytics flag is set to ON.
+
+Solver: Simcenter 3D Motion Version 2506 (13.0) Jul 16 2025 09:16:56 Intel Release 64bit
+Interface: RC2506P1400rc1 2025-04-25
+Hostname: LAUR
+OS Type: Windows
+Release: 6.2
+Version: Build 9200
+Machine: 8664
+Integer size:    5000000
+Real size:    5000000
+Mcheps: 0.22204460492503E-15
+
+[1276]
+Warning:  In the static data element, the step size is larger
+than the print interval specified in the system data element.  The step
+size is being reset so that it equals the print interval.
+  PRint.interval = 0.40000000000000E-01
+  old STEP.size = 5.0000000000000E-02
+  new STEP.size = 0.40000000000000E-01
+NOTE:  The Time Series Global Output element will reduce PRint.interval
+       when the Output Rate variable is set to two or more.
+
+License Server is [29000@193.254.231.76]
+
+Features requiring licenses
+-----------------------
+sc_motion_solver "Simcenter Motion Solver"
+
+
+Options processed by solver:
+Name           Value               Description
+----           -----               -----------
+BDFEPS         1.0000000000000E-05 Solution->System Properties->Solution Control->Pivot Tolerance [s]
+BDFMAXORDER    5                   Solution->Dynamic Properties->Solution Control->Maximum Order [s]
+ALLOWRDNUPDATE FALSE               Solution->System Properties->Solution Control->Reevaluate Redundant Constraints [s]
+MAXBDFITER     5                   Solution->Dynamic Properties->Solution Control->Allowed Iteration Steps (Default=5) [s]
+-------------------------------------------------------------
+Legend
+   [s] Found in supplemental options
+
+Results achieved by the model assembly process with drivers:
+
+  Number of function evaluations =     1
+  Maximum constraint violation   =   0.652395E-13
+
+ Element: B001
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: B002
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: B003
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: the_ground
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: J003
+    Coordinate    New Value     Original Value  Difference
+    Rel.ang.1     0.58547E-15    0.58547E-15     0.0000    
+
+ Element: J003
+    Coordinate    New Value     Original Value  Difference
+    Rel.ang.2    -0.11232E-14   -0.11232E-14     0.0000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     0.58547E-15    0.58547E-15     0.0000    
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+Number of real data in the system     =     32912
+Number of integer data in the system  =     25078
+
+
+ Time = 0.000000E+00
+*************** initial *****************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Newton's Method
+
+ Iteration =    0  Residual = 0.52526647167335E-17  PE =  0.0000000000000    Rate =  0.0000000000000
+
+ Time = 0.000000E+00
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.400000E-01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.800000E-01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.120000E+00
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.160000E+00
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.200000E+00
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.240000E+00
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.280000E+00
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.320000E+00
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.360000E+00
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.400000E+00
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.440000E+00
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.480000E+00
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.520000E+00
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.560000E+00
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.600000E+00
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.640000E+00
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.680000E+00
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.720000E+00
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.760000E+00
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.800000E+00
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.840000E+00
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.880000E+00
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.920000E+00
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.960000E+00
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.100000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.104000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.108000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.112000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.116000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.120000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.124000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.128000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.132000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.136000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.140000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.144000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.148000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.152000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.156000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.160000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.164000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.168000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.172000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.176000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.180000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.184000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.188000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.192000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.196000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.200000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.204000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.208000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.212000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.216000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.220000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.224000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.228000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.232000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.236000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.240000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.244000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.248000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.252000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.256000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.260000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.264000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.268000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.272000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.276000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.280000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.284000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.288000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.292000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.296000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.300000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.304000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.308000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.312000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.316000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.320000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.324000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.328000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.332000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.336000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.340000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.344000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.348000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.352000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.356000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.360000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.364000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.368000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.372000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.376000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.380000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.384000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.388000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.392000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.396000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+ Generalized Reduced Gradient Method
+
+ Iteration =    0  Residual =  0.0000000000000      PE =  0.0000000000000    Rate =
+
+ Time = 0.400000E+01
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Acceleration
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+Userdef was internal
+
+    Total elapsed CPU time:  0.1630000    
+    Total clock time:          0

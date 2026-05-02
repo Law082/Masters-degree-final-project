@@ -1,0 +1,313 @@
+Input file: D:\MASTER STIM SEM2 AN2\sisteme multicorp\proiect\prehensor_motion1_-_copie-solution002.minp
+
+Solver running in Simcenter Mode
+
+Copyright Siemens 2025
+
+
+[1764]
+Info: The PEP_analytics flag is set to ON.
+
+[1764]
+Info: The DPE_analytics flag is set to ON.
+
+Solver: Simcenter 3D Motion Version 2506 (13.0) Jul 16 2025 09:16:56 Intel Release 64bit
+Interface: RC2506P1400rc1 2025-04-25
+Hostname: LAUR
+OS Type: Windows
+Release: 6.2
+Version: Build 9200
+Machine: 8664
+Integer size:    5000000
+Real size:    5000000
+Mcheps: 0.22204460492503E-15
+
+[1296]
+Warning (dynamic data element):  When "INTERPOLATED" is selected for the
+print method, the print frequency feature cannot be used.  PRINT.Freq is
+being reset to zero (disabled) and execution is continuing.
+ The GGL formulation is turned on.
+
+[1276]
+Warning:  In the dynamic data element, the step size is larger
+than the print interval specified in the system data element.  The step
+size is being reset so that it equals the print interval.
+  PRint.interval = 0.40000000000000E-01
+  old MAX.int.step = 5.0000000000000E-02
+  new MAX.int.step = 0.40000000000000E-01
+NOTE:  The Time Series Global Output element will reduce PRint.interval
+       when the Output Rate variable is set to two or more.
+
+License Server is [29000@193.254.231.76]
+
+Features requiring licenses
+-----------------------
+sc_motion_solver "Simcenter Motion Solver"
+
+
+Options processed by solver:
+Name           Value               Description
+----           -----               -----------
+BDFEPS         1.0000000000000E-05 Solution->System Properties->Solution Control->Pivot Tolerance [s]
+BDFMAXORDER    5                   Solution->Dynamic Properties->Solution Control->Maximum Order [s]
+ALLOWRDNUPDATE FALSE               Solution->System Properties->Solution Control->Reevaluate Redundant Constraints [s]
+MAXBDFITER     5                   Solution->Dynamic Properties->Solution Control->Allowed Iteration Steps (Default=5) [s]
+-------------------------------------------------------------
+Legend
+   [s] Found in supplemental options
+
+Results achieved by the model assembly process with drivers:
+
+  Number of function evaluations =     1
+  Maximum constraint violation   =   0.652395E-13
+
+ Element: B001
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: B002
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: B003
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: the_ground
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: J003
+    Coordinate    New Value     Original Value  Difference
+    Rel.ang.1     0.58547E-15    0.58547E-15     0.0000    
+
+ Element: J003
+    Coordinate    New Value     Original Value  Difference
+    Rel.ang.2    -0.11232E-14   -0.11232E-14     0.0000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     0.58547E-15    0.58547E-15     0.0000    
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[2601]
+Warning:  The GGL option is enabled in Dynamic Properties, but the model 
+has zero degrees of freedom,
+which does not support GGL.  Therefore, the GGL option is disabled.  The simulation
+will proceed.
+ Using QR Initial Velocity Method
+
+[1286]
+Warning:  Initial conditions may not be sufficient (DAP2).
+Solution of initial velocities, using QR method:
+
+ Element: B001
+    Coordinate    Velocity
+    X            -0.271840E-01
+    Y             0.927982E-03
+    Z             0.194127E-01
+    E0             0.00000    
+    E1           -0.438120E-02
+    E2            0.865489E-01
+    E3           -0.102724E-01
+
+ Element: B002
+    Coordinate    Velocity
+    X             0.317644E-01
+    Y            -0.565373E-03
+    Z            -0.183111E-01
+    E0             0.00000    
+    E1            0.438120E-02
+    E2           -0.865489E-01
+    E3            0.102724E-01
+
+ Element: B003
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Velocity
+    Rel.ang.1     0.174533    
+
+ Element: J003
+    Coordinate    Velocity
+    Rel.ang.2     0.174533    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Velocity
+    Rel.angle    -0.174533    
+
+Solution of velocities in local coordinates:
+
+ Element: B001
+    Coordinate    Velocity
+    X            -0.271840E-01
+    Y             0.927982E-03
+    Z             0.194127E-01
+    OMEGA_XL     -0.876241E-02
+    OMEGA_YL      0.173098    
+    OMEGA_ZL     -0.205448E-01
+
+ Element: B002
+    Coordinate    Velocity
+    X             0.317644E-01
+    Y            -0.565373E-03
+    Z            -0.183111E-01
+    OMEGA_XL      0.876241E-02
+    OMEGA_YL     -0.173098    
+    OMEGA_ZL      0.205448E-01
+
+ Element: B003
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+Number of real data in the system     =     37838
+Number of integer data in the system  =     26247
+
+
+[1310]
+Warning:  Number of constraints is greater than or equal to the number
+of generalized coordinates.
+  Number of generalized coordinates =                   31
+  Number of constraints             =                   31
+
+Solution of accelerations in local coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X             0.337936E-02
+    Y             0.728592E-03
+    Z             0.469737E-02
+    OMEGAD_XL     0.372607E-19
+    OMEGAD_YL    -0.343530E-16
+    OMEGAD_ZL     0.738942E-17
+
+ Element: B002
+    Coordinate    Acceleration
+    X             0.318123E-02
+    Y             0.813043E-03
+    Z             0.549340E-02
+    OMEGAD_XL     0.440791E-17
+    OMEGAD_YL     0.854870E-17
+    OMEGAD_ZL    -0.560762E-17
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+Total Number of Bodies             =    4
+
+Total Number of Degrees of Freedom =   27
+Number of Kinematic Constraints    =   27
+Number of Drivers                  =    1
+Number of Initial Conditions       =    0
+Number of Degrees of Freedom       =    0
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+
+The number of symbolic factorizations of the Acceleration matrix =                    1
+
+The number of symbolic factorizations of BDF Jacobian matrix =                    1
+
+[1441]
+Final integrator statistics:
+  Number of steps                 =                  109
+  Number of f-s                   =                  112
+  Number of j-s                   =                    2
+  Ratio of f-s/steps              =  1.0275229357798
+  Ratio of j-s/steps              = 0.18348623853211E-01
+  Current time                    =  4.0000000000000
+  Total velocity computations     =                    0
+  Total position computations     =                    0
+Average Integration Order =   2.302752293578    
+Average Step Size         =  0.3670568807339E-01
+
+Userdef was internal
+
+    Total elapsed CPU time:  0.1520000    
+    Total clock time:          0

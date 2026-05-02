@@ -1,0 +1,1344 @@
+Input file: D:\MASTER STIM SEM2 AN2\sisteme multicorp\proiect\_prehensor_motion1_-_copie-solution001.minp
+
+Solver running in Simcenter Mode
+
+Copyright Siemens 2025
+
+
+[1764]
+Info: The PEP_analytics flag is set to ON.
+
+[1764]
+Info: The DPE_analytics flag is set to ON.
+
+Solver: Simcenter 3D Motion Version 2506 (13.0) Jul 16 2025 09:16:56 Intel Release 64bit
+Interface: RC2506P1400rc1 2025-04-25
+Hostname: LAUR
+OS Type: Windows
+Release: 6.2
+Version: Build 9200
+Machine: 8664
+Integer size:    5000000
+Real size:    5000000
+Mcheps: 0.22204460492503E-15
+
+[1296]
+Warning (dynamic data element):  When "INTERPOLATED" is selected for the
+print method, the print frequency feature cannot be used.  PRINT.Freq is
+being reset to zero (disabled) and execution is continuing.
+ The GGL formulation is turned on.
+
+[1076]
+Warning:  The data for the driver element "MOTION_J001_RZ" specifies
+"POLYNOMIAL" as the DRiving.function, but all four parameters
+are zero.  Execution is continuing with a zero function for this driver.
+
+License Server is [29000@193.254.231.76]
+
+Features requiring licenses
+-----------------------
+sc_motion_solver "Simcenter Motion Solver"
+
+
+Options processed by solver:
+Name           Value               Description
+----           -----               -----------
+BDFEPS         1.0000000000000E-05 Solution->System Properties->Solution Control->Pivot Tolerance [s]
+BDFMAXORDER    5                   Solution->Dynamic Properties->Solution Control->Maximum Order [s]
+ALLOWRDNUPDATE FALSE               Solution->System Properties->Solution Control->Reevaluate Redundant Constraints [s]
+MAXBDFITER     5                   Solution->Dynamic Properties->Solution Control->Allowed Iteration Steps (Default=5) [s]
+-------------------------------------------------------------
+Legend
+   [s] Found in supplemental options
+
+
+------------------------------------------------------------
+   Entering Interactive Mode at Time =  0.0000000000000    
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+   Exiting Interactive Mode
+------------------------------------------------------------
+
+
+[1134]
+Warning:  Prior to assembly the number of constraints, drivers and
+initial conditions is not equal to the number of generalized
+coordinates.  The assembly algorithm will be executed but the
+result will represent one of several possible solutions.
+Number of constraints, drivers, I.C's =                   33
+Number of generalized coordinates     =                   31
+
+Results achieved by the model assembly process with drivers:
+
+  Number of function evaluations =     1
+  Maximum constraint violation   =   0.652395E-13
+
+ Element: B001
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: B002
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: B003
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: the_ground
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: J003
+    Coordinate    New Value     Original Value  Difference
+    Rel.ang.1     0.58547E-15    0.58547E-15     0.0000    
+
+ Element: J003
+    Coordinate    New Value     Original Value  Difference
+    Rel.ang.2    -0.11232E-14   -0.11232E-14     0.0000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle     0.58547E-15    0.58547E-15     0.0000    
+
+
+------------------------------------------------------------
+   Entering Interactive Mode at Time =  0.0000000000000    
+------------------------------------------------------------
+
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+
+Redundant constraint check at Time =  0.0000000000000    
+
+[1172]
+The following are redundant constraints and will be deleted from the system:
+.........Element Info.........  ..........Meaning..............
+
+ Name: J004
+    Type:  Relative constraint            ( 0) no description available
+
+ Name: J005
+    Type:  Relative constraint            ( 0) no description available
+
+
+The remaining constraints in which the redundant
+constraints are linearly dependent to are summarized as:
+
+Name: J004
+     constraint ( 0) no description available
+     is linearly dependent to:
+
+
+Name: J005
+     constraint ( 0) no description available
+     is linearly dependent to:
+
+
+[2601]
+Warning:  The GGL option is enabled in Dynamic Properties, but the model 
+has zero degrees of freedom,
+which does not support GGL.  Therefore, the GGL option is disabled.  The simulation
+will proceed.
+
+[1440]
+Warning:  Initial velocities of all generalized coordinates have
+been set to zero.
+Solution of initial velocities, using QR method:
+
+ Element: B001
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Velocity
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Velocity
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Velocity
+    Rel.angle      0.00000    
+
+Solution of velocities in local coordinates:
+
+ Element: B001
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: B002
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: B003
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+Number of real data in the system     =      8950
+Number of integer data in the system  =     12248
+
+
+[1310]
+Warning:  Number of constraints is greater than or equal to the number
+of generalized coordinates.
+  Number of generalized coordinates =                   31
+  Number of constraints             =                   31
+
+Solution of accelerations in local coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: B002
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+Total Number of Bodies             =    4
+
+Total Number of Degrees of Freedom =   27
+Number of Kinematic Constraints    =   27
+Number of Drivers                  =    1
+Number of Initial Conditions       =    0
+Number of Degrees of Freedom       =    0
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+SET SYSTEM System ENDING.TIME = 256.00000000000
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1440]
+Warning:  Initial velocities of all generalized coordinates have
+been set to zero.
+Solution of initial velocities, using QR method:
+
+ Element: B001
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B002
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: B003
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: J003
+    Coordinate    Velocity
+    Rel.ang.1      0.00000    
+
+ Element: J003
+    Coordinate    Velocity
+    Rel.ang.2      0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Velocity
+    Rel.angle      0.00000    
+
+Solution of velocities in local coordinates:
+
+ Element: B001
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: B002
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: B003
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+Number of real data in the system     =     10503
+Number of integer data in the system  =     13272
+
+
+[1310]
+Warning:  Number of constraints is greater than or equal to the number
+of generalized coordinates.
+  Number of generalized coordinates =                   31
+  Number of constraints             =                   31
+
+Solution of accelerations in local coordinates:
+
+ Element: B001
+    Coordinate    Acceleration
+    X             0.844839E-03
+    Y             0.182148E-03
+    Z             0.117434E-02
+    OMEGAD_XL     0.111697E-20
+    OMEGAD_YL     0.480525E-20
+    OMEGAD_ZL    -0.207571E-20
+
+ Element: B002
+    Coordinate    Acceleration
+    X             0.795307E-03
+    Y             0.203261E-03
+    Z             0.137335E-02
+    OMEGAD_XL     0.292023E-19
+    OMEGAD_YL    -0.255579E-20
+    OMEGAD_ZL    -0.199599E-19
+
+ Element: B003
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+Total Number of Bodies             =    4
+
+Total Number of Degrees of Freedom =   27
+Number of Kinematic Constraints    =   27
+Number of Drivers                  =    1
+Number of Initial Conditions       =    0
+Number of Degrees of Freedom       =    0
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+
+[100]
+Warning from AX/AY/AZ angle measured by RELATIVE GRELCON_2BODY1       ANGLE     ANGLE                   2
+"J004"
+at time t=24.00000000000.  The rotation sequence has become nearly singular.
+As a result, the measured angle may jump discontinuously.  The simulation will
+continue. This message will only be issued only once.  Additional instances will
+be reported if the environment variable LMSMOTRPTALLSINGANG is set.  If this
+variable is set, additional instances will reported as:
+AX/AY/AZ angle nearly singular (ID=3016) at t=24.00000000000
+See documentation for description of singular condition of AX, AY, and AZ.
+
+[100]
+Warning from AX/AY/AZ angle measured by RELATIVE GRELCON_2BODY1       ANGLE     ANGLE                   2
+"J004"
+at time t=24.00000000000.  The rotation sequence has become nearly singular.
+As a result, the measured angle may jump discontinuously.  The simulation will
+continue. This message will only be issued only once.  Additional instances will
+be reported if the environment variable LMSMOTRPTALLSINGANG is set.  If this
+variable is set, additional instances will reported as:
+AX/AY/AZ angle nearly singular (ID=3038) at t=24.00000000000
+See documentation for description of singular condition of AX, AY, and AZ.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+STEP command
+ 
+***************************************************************************************************************
+                        Mass Properties                                   
+***************************************************************************************************************
+ 
+ Mass units = KILOGRAM            
+ Mass Conversion Factor =    1.00000000000000     
+ Length units = METER               
+ 
+                Mass            IXX            IYY            IZZ            IXY            IXZ            IYZ
+B001          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B002          0.10000E-07    0.10000E-07    0.10000E-07    0.10000E-07     0.0000         0.0000         0.0000    
+B003           1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+the_ground     1.0000         1.0000         1.0000         1.0000         0.0000         0.0000         0.0000    
+ 
+
+[1772]
+Warning: A dynamic simulation with no open degrees of freedom is being executed with a
+dynamic element this may lead to a simulation failure. The user should consider switching
+to a kinematics or inverse dynamics simulation.
+SET SYSTEM System ENDING.TIME = 40.000000000000
+   Quiting Motion.
+
+------------------------------------------------------------
+   Exiting Interactive Mode
+------------------------------------------------------------
+
+
+Userdef was internal
+
+    Total elapsed CPU time:   25.89200    
+    Total clock time:         26
