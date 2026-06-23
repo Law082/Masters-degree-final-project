@@ -29,7 +29,7 @@ The project explores six distinct simulation methods to validate the control arc
 
 ![Trajectory Graphs](images/pickandplace.png)
 
-![Results](images/physical_robot.png)
+![Results](images/Results.png)
 
 ## Conclusions & Future Improvements
 During the visual simulation, an assembly constraint issue was identified where the screws rotated alongside the moving joints instead of remaining fixed to the structure. Additionally, signal noise was observed in the velocity and acceleration outputs across several methods. 
