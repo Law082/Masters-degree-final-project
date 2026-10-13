@@ -14,6 +14,10 @@ This project presents the simulation of a "Pick and Place" task for a robotic ar
 - Direct import and manipulation of CAD reference frames from .CATPart files into Simulink.
 - Simulation architecture branched into 6 methods, including classic control with gear-motor models, PID control, and a "Phantom Model" method that directly integrates dynamic models (forward and inverse) to avoid explicit calculation of inertia and Coriolis matrices.
 
+<p align="center">
+  <img src="images/Arhi.png" />
+</p>
+
 ## Methods
 The project explores six distinct simulation methods to validate the control architecture and kinematic models.
 
@@ -37,6 +41,10 @@ The project explores six distinct simulation methods to validate the control arc
 
 The open-source visual model is built at a 1:1 scale compared to the physical arm. The mechanical architecture was reproduced by breaking down the CAD model into individual parts, which were then assembled in Simulink by matching reference frames (Frames) and using Rigid Transform blocks to properly align the rotation axes with the simulator's Z-axis. The global frame and gravity are controlled through fundamental modules: World Frame, Mechanism Configuration, and Solver Configuration. The system transfers data (position, velocity, acceleration) calculated in a MATLAB script directly into Simulink blocks (via From Workspace), which in turn dictate joint movement or motor effort, and the calculated torques are sent back to MATLAB (via To Workspace).
 
+<p align="center">
+  <img src="images/pva.png" />
+</p>
+
 ## Results
 
 - The first method successfully generated the necessary joint torques by directly imposing the position, velocity, and acceleration profiles.
@@ -58,6 +66,5 @@ To better visualize the robot, it was also simulated in **Simcenter3D**. Below a
 
 ## Documentation
 
-[Presentation](Design%20of%20a%20mobile%20robot%20with%20a%20robotic%20arm%20for%20sorting%20recyclable%20waste%20using%20ArUco%20markers%20and%20YOLO/Presentation.pptx)
+[Presentation](6DOF%20robot%20imported%20in%20simulink/Practica_De_Cercetare_Condrea_Laurentiu_%20Complet%20(1).pptx)
 
-[Documentation](Design%20of%20a%20mobile%20robot%20with%20a%20robotic%20arm%20for%20sorting%20recyclable%20waste%20using%20ArUco%20markers%20and%20YOLO/Proiect_Diploma_ghid_2024_RO%20-%20CONDREA%20LAURENȚIU.pdf)
