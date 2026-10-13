@@ -7,6 +7,8 @@ The main objective is to move the end-effector from Point A (Pickup) to Point B 
 
 The robot's components were first disassembled into their individual parts (File Solid Block in Simulink), which were then organized into a serial chain following the sequence **Body 1 → Joint 1 → Body 2 → Joint 2 → Body 3**, and so on, depending on the mechanical configuration. A joint (Revolute Joint Block in Simulink) was not necessarily required between every two consecutive bodies, as some components were directly connected. Next, coordinate axes were defined (Frames/File Solid Block in Simulink) for each body to establish the connections between consecutive components. The axes were then positioned and rotated according to the required orientations (Rigid Transform Block in Simulink), ensuring that they aligned with the intended joint rotation axes and the desired kinematic configuration of the robot.
 
+![Sequence 3](images/simularevideo.gif)
+
 ## Mechanical Architecture & Trajectory
 * **Architecture:** The robot features a Z-X-X-X-X serial chain configuration.
 * **Degrees of Freedom (DoF):** The model operates with 5 DoF within the simulation for trajectory generation and inverse kinematics, while the physical robot has 6 DoF (the gripper mechanism is treated as a separate transport operation).
