@@ -37,7 +37,7 @@ After completing the simulations, the output signals were exported to the MATLAB
 
 ![Trajectory Graphs](images/pickandplace.png)
 
-## Results
+## Results Method 5
 
 ![Results](images/Results.png)
 
