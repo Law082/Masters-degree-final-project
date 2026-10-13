@@ -1,4 +1,4 @@
-# Pick and Place Robotic Arm Simulation in Simulink
+# Pick and Place Robotic Arm Simulations
 
 ## Overview
 This repository contains a research and simulation project for a "Pick and Place" robotic arm, developed in MATLAB/Simulink.The virtual open-source model used in the simulation is built at a 1:1 scale relative to the existing physical robot.
