@@ -1,9 +1,11 @@
 # Pick and Place Robotic Arm Simulations
 
 ## Overview
-This repository contains a research and simulation project for a "Pick and Place" robotic arm, developed in MATLAB/Simulink.The virtual open-source model used in the simulation is built at a 1:1 scale relative to the existing physical robot.
+This repository contains a simulation project for a "Pick and Place" robotic arm, developed in MATLAB/Simulink.The virtual open-source model used in the simulation is built at a 1:1 scale relative to the existing physical robot.
 
-The main objective is to move the end-effector from Point A (Pickup) to Point B (Placement) within a 4-second timeframe, synchronizing the movement of all joints. 
+The main objective is to move the end-effector from Point A (Pickup) to Point B (Placement) within a 4-second timeframe, synchronizing the movement of all joints.
+
+The robot's components were first disassembled into their individual parts (File Solid Block in Simulink), which were then organized into a serial chain following the sequence **Body 1 → Joint 1 → Body 2 → Joint 2 → Body 3**, and so on, depending on the mechanical configuration. A joint (Revolute Joint Block in Simulink) was not necessarily required between every two consecutive bodies, as some components were directly connected. Next, coordinate axes were defined (Frames/File Solid Block in Simulink) for each body to establish the connections between consecutive components. The axes were then positioned and rotated according to the required orientations (Rigid Transform Block in Simulink), ensuring that they aligned with the intended joint rotation axes and the desired kinematic configuration of the robot.
 
 ## Mechanical Architecture & Trajectory
 * **Architecture:** The robot features a Z-X-X-X-X serial chain configuration.
@@ -21,13 +23,21 @@ The project explores six distinct simulation methods to validate the control arc
 * **Method 5 (Direct Acceleration):** A variation of the Phantom Model that directly integrates acceleration from the summation point.
 * **Method 6 (PID Control):** Utilizes a PID regulator (Kp = 100) focusing strictly on correlating the system's positional response with the execution time window.
 
-## Visuals
+After completing the simulations, the output signals were exported to the MATLAB Workspace for further analysis. The simulation results were also connected to Scope blocks in Simulink, allowing the system's behavior to be monitored through graphical representations of the output signals.
+
+## Architecture
 
 ![Architecture](images/architecture.png)
 
+## Method 1
+
 ![Simulink Architecture](images/1_method.png)
 
+## Trajectory Graphs
+
 ![Trajectory Graphs](images/pickandplace.png)
+
+## Results
 
 ![Results](images/Results.png)
 
