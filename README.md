@@ -68,5 +68,5 @@ To better visualize the robot, it was also simulated in **Simcenter3D**. Below a
 
 For a detailed explanation of the design process, methodology, calculations, and results, see the project documentation and presentation below.
 
-[Presentation](6DOF%20robot%20imported%20in%20simulink/Practica_De_Cercetare_Condrea_Laurentiu_%20Complet%20(1).pptx)
+[Presentation](6DOF%20robot%20imported%20in%20simulink/Practica_De_Cercetare_Condrea_Laurentiu_%20Complet.pptx)
 
